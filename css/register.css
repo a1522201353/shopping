@@ -1,0 +1,146 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    height: 82px;
+
+    border-bottom: 2px solid #b1191a;
+    line-height: 82px;
+}
+
+.registerarea {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.regform {
+    width: 600px;
+
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.regform ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.regform ul li input {
+    width: 232px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url("../upload/矩形8.png") no-repeat;
+}
+
+.regform ul li {
+    margin-bottom: 20px;
+}
+
+.regform ul .one {
+    margin-top: 40px;
+}
+
+.tongyi {
+    width: 230px;
+    height: 24px;
+
+    margin-left: 90px;
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.tongyi ul li {
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.tongyi ul li:nth-child(3) {
+    padding-left: 0px;
+}
+
+.tongyi input[type=checkbox] {
+    margin-top: 3px;
+    width: 17px;
+    height: 17px;
+}
+
+.tongyi ul li i {
+    color: #38a8e8;
+}
+
+.butt {
+    margin-bottom: 0px;
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    margin-left: 110px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.butt p {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer {
+    margin-top: 25px;
+}
+
+.footer-hd {
+    height: 15px;
+    line-height: 15px;
+    margin-left: 115px;
+}
+
+.footer-hd ul li {
+    float: left;
+    height: 15px;
+    padding-right: 10px;
+    font-size: 12px
+}
+
+.footer-bd {
+    margin-top: 15px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+}

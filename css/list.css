@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?igx6w4');
+    src: url('../fonts/icomoon.eot?igx6w4#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?igx6w4') format('truetype'),
+        url('../fonts/icomoon.woff?igx6w4') format('woff'),
+        url('../fonts/icomoon.svg?igx6w4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.navone {
+    height: 45px;
+    border-bottom: 3px solid #b1191a;
+
+}
+
+.nav-le {
+    float: left;
+    width: 390px;
+    height: 45px;
+
+    line-height: 45px;
+}
+
+.nav-le ul li {
+    float: left;
+    padding-right: 56px;
+}
+
+.nav-le ul {
+    margin-left: 30px;
+}
+
+.nav-le ul li h3 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.navright {
+    line-height: 45px;
+
+}
+
+.navright ul li {
+    float: left;
+    padding-right: 50px;
+}
+
+.navright ul li a {
+    font-size: 14px;
+}
+
+.navright .gengduo::after {
+    font-family: 'icomoon';
+    content: '';
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li p {
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.sk_container {
+    overflow: hidden;
+}
+
+.sk_bd ul li h1 {
+    display: inline-block;
+    color: #e60012;
+    font-weight: 400;
+}
+
+.sk_bd ul li h3 {
+    display: inline-block;
+    color: #cbcbcb;
+    text-decoration: line-through;
+
+}
+
+.sk_bd ul li .se {
+
+    height: 44px;
+    width: 290px;
+    line-height: 44px;
+}
+
+.sk_bd ul li .se h4 {
+    float: left;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.sk_bd ul li .se .he {
+    margin-left: 15px;
+    float: left;
+    width: 130px;
+    height: 15px;
+    border: 1px solid #e22c32;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.sk_bd ul li .se .he .he2 {
+
+    width: 80%;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #e22c32;
+}
+
+
+.sk_bd ul li .se h5 {
+    padding-left: 15px;
+    float: left;
+    font-weight: 400;
+}
+
+.se2 {
+    background-color: #b1191a;
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    text-align: center;
+}
+
+.se2 h2 a {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}

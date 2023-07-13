@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?igx6w4');
+    src: url('../fonts/icomoon.eot?igx6w4#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?igx6w4') format('truetype'),
+        url('../fonts/icomoon.woff?igx6w4') format('woff'),
+        url('../fonts/icomoon.svg?igx6w4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.current {
+    background-color: white;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    position: relative;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.main .focus img {
+    position: relative;
+}
+
+.main .focus .lef {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    margin-top: -15px;
+    text-decoration: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(17, 17, 17, 0.3);
+    line-height: 30px;
+    font-size: 23px;
+    padding-right: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.main .focus .rig {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin-top: -15px;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(17, 17, 17, 0.3);
+    line-height: 30px;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+}
+
+.main .focus .lef:hover {
+    color: coral;
+}
+
+.main .focus .rig:hover {
+    color: coral;
+}
+
+.main .focus .bod {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -40px;
+    width: 80px;
+    height: 13px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.3);
+    /*z-index: 999;*/
+}
+
+.main .focus .bod ul li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    z-index: 999;
+}
+
+.main .focus .bod ul {
+    z-index: 999;
+}
+
+.main .focus ul li {
+    float: left;
+
+}
+
+.main .focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+
+}
+
+.main .focus ul li:hover {
+    background-color: coral;
+}
+
+.newsflash .news {
+    height: 165px;
+
+}
+
+.newsflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+
+}
+
+.newsflash .bergain {
+    margin-top: 5px;
+}
+
+.news .news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dashed #e8e8e7;
+    border: 1px solid #e4e4e4;
+}
+
+.news .news-hd h3 {
+    float: left;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.news .news-hd span {
+    float: right;
+    padding-right: 20px;
+    font-size: 14px;
+
+}
+
+.news .news-hd span:after {
+    content: '';
+    font-family: 'icomoon';
+    font-size: 16px;
+    padding-left: 3px;
+    vertical-align: middle;
+
+}
+
+.news .news-bd {
+    width: 250px;
+    height: 133px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    /* margin-left: 18px; */
+    font-size: 12px;
+}
+
+.news .news-bd ul li {
+    width: 100%;
+    padding-top: 6px;
+    padding-left: 18px;
+    /* 超出内容隐藏 */
+    overflow: hidden;
+    /* 多出的内容不显示 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .lifeservice ul {
+    width: 252px;
+}
+
+.newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    margin-top: 10px;
+    background: url("../images/icons.png") no-repeat -18px -17px;
+}
+
+.newsflash .lifeservice ul li .one {
+    background: url("../images/icons.png") no-repeat -81px -17px;
+}
+
+.newsflash .lifeservice ul li .two {
+    background: url("../images/icons.png") no-repeat -143px -18px;
+}
+
+.newsflash .lifeservice ul li .three {
+    background: url("../images/icons.png") no-repeat -206px -17px;
+}
+
+.newsflash .lifeservice ul li .one {
+    background: url("../images/icons.png") no-repeat -81px -17px;
+}
+
+.newsflash .lifeservice ul li .one {
+    background: url("../images/icons.png") no-repeat -81px -17px;
+}
+
+.newsflash .lifeservice ul .l {
+    position: relative;
+}
+
+.newsflash .lifeservice ul .l img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* 推荐模块 */
+.recom {
+    margin-top: 12px;
+    height: 164px;
+
+}
+
+.recom-hd {
+    float: left;
+    height: 100%;
+    width: 207px;
+    background-color: rgb(141, 140, 140);
+    text-align: center;
+}
+
+.recom-hd:hover {
+    background-color: #5c5251;
+}
+
+.recom-hd img {
+    margin-top: 32px;
+}
+
+.recom-bd {
+    float: left;
+    width: 993px;
+}
+
+.recom-bd ul {
+    width: 1000px;
+}
+
+.recom-bd ul li {
+    float: left;
+}
+
+.like {
+    height: 33px;
+    margin-top: 30px;
+
+    line-height: 33px;
+}
+
+.like h3 {
+    float: left;
+}
+
+.like a {
+    float: right;
+    padding-right: 20px;
+}
+
+.liketwo {
+    height: 235px;
+    border: 1px solid #ededed;
+    text-align: center;
+}
+
+.liketwo ul li {
+    position: relative;
+    float: left;
+    width: 199px;
+}
+
+.liketwo ul li::after {
+    content: '';
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 1px;
+    height: 70px;
+    background-color: #ededed;
+}
+
+.liketwo a {
+    display: block;
+    height: 235px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.liketwo ul li p {
+    width: 123px;
+    margin-top: 5px;
+    margin-left: 37px;
+}
+
+.liketwo ul li img {
+    width: 160px;
+    height: 141px;
+}
+
+.liketwo ul li h1 {
+    color: #e14749;
+    width: 70px;
+    height: 25px;
+    font-size: 20px;
+    margin-left: 34px;
+}
+
+.liketwo ul li img {
+    margin-top: 10px;
+}
+
+
+
+.amusing {
+    margin-top: 30px;
+
+}
+
+.amusingtwo {
+    height: 405px;
+    margin-top: 10px;
+    border: 1px solid #e4e4e4;
+}
+
+.amusingtwo .amleft {
+    float: left;
+    width: 400px;
+    height: 100%;
+
+}
+
+.amusingtwo .amlefttwo {
+    float: left;
+    margin-left: 5px;
+    width: 228px;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+}
+
+.amlefthead {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+
+.amlefthead i {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    width: 200px;
+    height: 1px;
+    background-color: #e4e4e4;
+}
+
+.amleftbody {
+    float: left;
+    width: 225px;
+    height: 202px;
+    background-color: pink;
+}
+
+.amleftthree {
+    float: left;
+    width: 406px;
+    height: 100%;
+    background-color: pink;
+}
+
+.amusingtwo ul li {
+    float: left;
+    width: 79px;
+    height: 58px;
+    border-bottom: 1px dashed #e4e4e4;
+    border-right: 1px dashed #e4e4e4;
+    line-height: 58px;
+
+}
+
+.amusingtwo ul {
+    text-align: center;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 1px solid #c81623;
+
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    margin-left: 13px;
+
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.Elevator {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 10px;
+    width: 60px;
+    height: 75px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.Elevator ul li {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+.one_red {
+    background-color: #c81623;
+
+}
+
+.one_red a {
+    color: #fff !important;
+}
